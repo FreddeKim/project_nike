@@ -1,0 +1,300 @@
+
+a{
+    text-decoration: none;
+}
+img{width: 100%; 
+    display: block;}
+
+
+header > div:last-of-type > nav > ul > li > ul > li > ul > li > strong,
+header > div:last-of-type > nav > ul > li > a,
+body > div:first-of-type > div:first-of-type > div:last-of-type > div > p{
+    font-family: 'Oxygen';
+}
+
+.showcaseList > h2,.sportsListSec > h2,.sportsListSec > ul > li > a > p,
+.shoes > h2,.memberShip > h2,
+.shoes > ul > li > a > div > p{
+    font-family: 'Oswald';
+}
+header > div:last-of-type > nav > ul > li > ul > li > ul > li > a,
+
+body > div:first-of-type > div:first-of-type > div:last-of-type > strong,
+body > div:first-of-type > a > span,
+header > div:first-of-type > nav > ul > li > a,
+body > div:first-of-type > div:last-of-type > div:nth-of-type(2) > div > div,
+body > div:first-of-type > div:last-of-type > div:nth-of-type(2) > div:last-of-type,
+.memberShip > ul > li,.botMenu > div > ul,
+footer > div:first-child > div > ul li,
+footer > div:last-child > ul > li,
+footer > div:last-child > div > div > span,
+    footer > div:last-child > div > div > address > span{
+    font-family: 'Noto Sans KR';
+}
+
+
+
+@media screen and (min-width: 1280px){
+
+    header > div{
+        display: flex;
+    }
+    header > div:first-of-type{
+        padding: 20px 0 20px 40px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F1F2F6;
+    }
+    header > div:first-of-type > div:first-of-type{
+        display: flex;
+    }
+    header > div:first-of-type > div:first-of-type > a > img{
+        height: 20px;
+    }
+    header > div:first-of-type > div:first-of-type > a:first-of-type{
+        margin-right: 10px;
+    }
+    header > div:first-of-type > div:first-of-type > a:first-of-type > img{
+        width: 20px;
+    }
+    header > div:first-of-type > div:first-of-type > a:last-of-type > img{
+        width: 27px;
+    }
+    header > div:first-of-type > nav{
+        width: 25.85%;
+        margin-left: 20%;
+    }
+    header > div:first-of-type > nav > ul{
+        display: flex;
+    }
+    header > div:first-of-type > nav > ul > li{
+        width: 25%;
+        text-align: center;
+    }
+    header > div:first-of-type > nav > ul > li > a{
+        font-size: 14px;
+        color: #000000;
+        font-weight: 700;
+        transition: color 0.3s ease-in;
+    }
+    header > div:first-of-type > nav > ul > li > a:hover{
+        color: #0AB8CB;
+    }
+
+    
+    header > div:first-of-type > div:last-of-type{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    header > div:first-of-type > div:last-of-type > div:first-of-type{
+        position: relative;
+        width:100%;
+    }
+    header > div:first-of-type > div:last-of-type > div:first-of-type > form > div > button{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: none;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    header > div:first-of-type > div:last-of-type > div > form > div > button > img{
+        width: 100%;
+    }
+    header > div:first-of-type > div:last-of-type > div > a{
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+    header > div:first-of-type > div:last-of-type > div > form > input[type="search"]{
+        height: 32px;
+        width: 100%;
+        border-radius: 30px;
+        border: none;
+        box-sizing: border-box;
+        padding-left: 40px;
+    }
+    header > div:first-of-type > div:last-of-type > div > form > input[type="search"]:focus{
+        outline: none;
+    }
+    header > div:first-of-type > div:last-of-type > div > form > input[type="search"]::placeholder{
+        color: #9D9FAC;
+        font-weight: 700;
+        margin-left: 30px;
+
+    }
+    header > div:first-of-type > div:last-of-type > div:last-of-type{
+        width: 30%;
+        margin-left: 5%;
+        display: flex;
+    }
+    header > div:first-of-type > div:last-of-type > div:last-of-type > a > img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+
+
+
+    header > div:last-of-type{
+        display: flex;
+        align-items: center;
+        /* position: relative; */
+        padding: 0 40px;
+    }
+
+
+    header > div:last-of-type > div:first-of-type > h1 > a > img{
+        width: 70px;
+        height: 40px;
+    }
+
+
+
+
+    header > div:last-of-type > nav{
+        margin: 0 33%;
+        position: relative;
+        width: 50%;
+    }
+    header > div:last-of-type > nav > ul{
+        display: flex;
+        /* width: 40.5%; */
+        justify-content: space-between;
+    }
+    header > div:last-of-type > nav > ul > li{
+        text-align: center;
+        padding: 24px 0;
+    }
+    header > div:last-of-type > nav > ul > li > a{
+        font-size: 14px;
+        font-weight: 700;
+        color: #000000;
+        border-bottom: 2px solid transparent;
+        padding: 0 5px 5px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease-in-out;
+    }
+    header > div:last-of-type > nav > ul > li:hover > a{
+        border-bottom: 2px solid #000000;
+    }
+    header > div:last-of-type > nav > ul > li > ul{
+        width: 328.5%;
+        position: absolute;
+        background-color: #ffffff;
+        left: -120.03%;
+        display: flex;
+        padding: 20px 200px 50px;
+        box-sizing: border-box;
+        top: 100%;
+        
+    }
+    .gnbNewNfeatured,.gnbMen,.gnbWomen,.gnbKids,.gnbSales{
+        z-index: 1000;
+    }
+
+    header > div:last-of-type > nav > ul > li > ul > li{
+        width: 20%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+    header > div:last-of-type > nav > ul > li > ul > li > ul > li{
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+    header > div:last-of-type > nav > ul > li > ul > li > ul > li > strong{
+        font-size: 14px;
+    }
+    header > div:last-of-type > nav > ul > li > ul > li > ul > li > a{
+        font-size: 14px;
+        color: #4F5763;
+        font-weight: 500;
+    }
+    header > div:last-of-type > nav > ul > li > ul > li > ul > li > a:hover{
+        color: #000000;
+    }
+
+    footer{
+        padding-top: 40px;
+    }
+    footer > div:first-child{
+        max-width: 1400px;
+        margin: 0 auto 100px;
+
+    }
+    footer > div:first-child > div{
+        display: flex;
+    }
+    footer > div:first-child > div > ul{
+        width: 25%;
+        text-align: center;
+        list-style: none;
+    }
+    footer > div:first-child > div > ul li{
+        display: block;
+    }
+    footer > div:first-child > div > ul li:first-child{
+        margin-bottom: 40px;
+    }
+    footer > div:first-child > div > ul li:first-child > strong{
+        font-size: 0.8vw;
+    }
+    footer > div:first-child > div > ul li:not(:first-child){
+        padding: 10px;
+    }
+    footer > div:first-child > div > ul li:not(:first-child) > a{
+        color: #4F5763;
+        font-weight: 700;
+        transition: color 0.2s;
+    }
+    footer > div:first-child > div > ul li:not(:first-child) > a:hover{
+        color: #000000;
+    }
+    footer > div:last-child > ul{
+        display: flex;
+        max-width: 1400px;
+        margin: 0 auto 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #9D9FAC;
+        
+    }
+    footer > div:last-child > ul > li{
+        margin: 0 20px;
+        display: block;
+        color: #4F5763;
+    }
+    footer > div:last-child > ul > li > a{
+        color: #4F5763;
+        font-weight: 700;
+    }
+    footer > div:last-child > div{
+        max-width: 1400px;
+        margin: 0 auto 100px; 
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div:last-child > div > div{
+        width: 49%;
+        color: #9D9FAC;
+    }
+    footer > div:last-child > div > div > span,
+    footer > div:last-child > div > div > address > span{
+        font-style: normal;
+        line-height: 24px;
+        display: block;
+        font-size: 14px;
+    }
+    footer > div:last-child > div > div > span > a,
+    footer > div:last-child > div > div > address > span > a{
+        color: #9D9FAC;
+        font-weight: 700;
+    }
+
+};
+
+

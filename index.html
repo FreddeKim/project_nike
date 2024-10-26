@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/nike.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <a href="#">
+                    <img src="images/jordan_logo.png" alt="Go to Jordan">
+                </a>
+                <a href="#">
+                    <img src="images/converse_logo.png" alt="Go to Converse">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">매장 찾기</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">로그인</a></li>
+                </ul>
+            </nav>
+            <div>
+                <div>
+                    <form>
+                        <div>
+                            <button type="button"><img src="images/search_ico.png" alt="검색"></button>
+                        </div>
+                        <input type="search" id="search_bar" placeholder="검색">
+                    </form>
+                </div>
+                <div>
+                    <a href="#"><img src="images/wish_ico.png" alt="찜목록"></a>
+                    <a href="#"><img src="images/cart_ico.png" alt="장바구니"></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1><a href="#"><img src="images/nike_logo.png" alt="Go to Nike"></a></h1>
+            </div>
+            <nav class="gnbwrap">
+                <ul>
+                    <li class="gnbNewNfeatured">
+                        <a href="#">New & Featured</a>
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li><strong>New & Featured</strong></li>
+                                    <li><a href="#">신제품 전체</a></li>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Collection</strong></li>
+                                    <li><a href="#">썸머 스포츠</a></li>
+                                    <li><a href="#">나이키 일렉트릭 팩</a></li>
+                                    <li><a href="#">나이키 잼 컬렉션</a></li>
+                                    <li><a href="#">나이키 X 지크위스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Shop Icons</strong></li>
+                                    <li><a href="#">에어 포스 1</a></li>
+                                    <li><a href="#">줌 보메로 5</a></li>
+                                    <li><a href="#">코르테즈</a></li>
+                                    <li><a href="#">P - 6000</a></li>
+                                    <li><a href="#">V2K</a></li>
+                                    <li><a href="#">덩크</a></li>
+                                    <li><a href="#">페가수스</a></li>
+                                    <li><a href="#">인피니티 런</a></li>
+                                    <li><a href="#">메트 콘</a></li>
+                                    <li><a href="#">에어맥스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Shop by Sports</strong></li>
+                                    <li><a href="#">육상</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">트레이닝 & 짐</a></li>
+                                    <li><a href="#">요가</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">수영</a></li>
+                                    <li><a href="#">스케이트보드</a></li>
+                                    <li><a href="#">하이킹</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Guide</strong></li>
+                                    <li><a href="#">러닝화 가이드</a></li>
+                                    <li><a href="#">축구화 가이드</a></li>
+                                    <li><a href="#">농구화 가이드</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnbMen">
+                        <a href="#">Men</a>
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li><strong>New & Featured</strong></li>
+                                    <li><a href="#">신제품 전체</a></li>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Collection</strong></li>
+                                    <li><a href="#">런 에너지 팩</a></li>
+                                    <li><a href="#">나이키 테크 컬렉션</a></li>
+                                    <li><a href="#">매드 엠비션 팩</a></li>
+                                    <li><a href="#">PSG</a></li>
+                                    <li><a href="#">드라이 핏</a></li>
+                                    <li><a href="#">ACG</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Shoes</strong></li>
+                                    <li><a href="#">라이프 스타일</a></li>
+                                    <li><a href="#">샌들 & 슬리퍼</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">트레이닝 & 짐</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">스케이트 보딩</a></li>
+                                    <li><a href="#">10만원 이하 신발</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Clothes</strong></li>
+                                    <li><a href="#">탑 & 티셔츠</a></li>
+                                    <li><a href="#">쇼츠</a></li>
+                                    <li><a href="#">팬츠 & 타이츠</a></li>
+                                    <li><a href="#">재킷 & 베스트</a></li>
+                                    <li><a href="#">후디 & 크루</a></li>
+                                    <li><a href="#">조거 & 스웻팬츠</a></li>
+                                    <li><a href="#">셋업</a></li>
+                                    <li><a href="#">ACG</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">수영복</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>ETC</strong></li>
+                                    <li><a href="#">모자 & 헤드밴드</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnbWomen">
+                        <a href="#">Women</a>
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li><strong>New & Featured</strong></li>
+                                    <li><a href="#">신제품 전체</a></li>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Collection</strong></li>
+                                    <li><a href="#">런 에너지 팩</a></li>
+                                    <li><a href="#">나이키 테크 컬렉션</a></li>
+                                    <li><a href="#">매드 엠비션 팩</a></li>
+                                    <li><a href="#">PSG</a></li>
+                                    <li><a href="#">드라이 핏</a></li>
+                                    <li><a href="#">ACG</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Shoes</strong></li>
+                                    <li><a href="#">라이프 스타일</a></li>
+                                    <li><a href="#">샌들 & 슬리퍼</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">트레이닝 & 짐</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">스케이트 보딩</a></li>
+                                    <li><a href="#">10만원 이하 신발</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Clothes</strong></li>
+                                    <li><a href="#">탑 & 티셔츠</a></li>
+                                    <li><a href="#">쇼츠</a></li>
+                                    <li><a href="#">팬츠</a></li>
+                                    <li><a href="#">타이츠 & 레깅스</a></li>
+                                    <li><a href="#">스포츠 브라</a></li>
+                                    <li><a href="#">재킷 & 베스트</a></li>
+                                    <li><a href="#">후디 & 크루</a></li>
+                                    <li><a href="#">셋업</a></li>
+                                    <li><a href="#">요가</a></li>
+                                    <li><a href="#">ACG</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">수영복</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>ETC</strong></li>
+                                    <li><a href="#">모자 & 헤드밴드</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnbKids">
+                        <a href="#">Kids</a>
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li><strong>New & Featured</strong></li>
+                                    <li><a href="#">신제품 전체</a></li>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Collection</strong></li>
+                                    <li><a href="#">에어 리프트</a></li>
+                                    <li><a href="#">반팔 티셔츠</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Shoes</strong></li>
+                                    <li><a href="#">베이비(160mm이하)</a></li>
+                                    <li><a href="#">리틀키즈(160~220mm)</a></li>
+                                    <li><a href="#">주니어(220~250mm)</a></li>
+                                    <li><a href="#">덩크 & 에어포스 1</a></li>
+                                    <li><a href="#">이지온</a></li>
+                                    <li><a href="#">샌들 & 슬리퍼</a></li>
+                                    <li><a href="#">라이프 스타일</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">농구</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Clothes</strong></li>
+                                    <li><a href="#">베이비(0~3세)</a></li>
+                                    <li><a href="#">리틀키즈(4~7세)</a></li>
+                                    <li><a href="#">주니어(7~15세)</a></li>
+                                    <li><a href="#">상하의 세트</a></li>
+                                    <li><a href="#">탑 & 티셔츠</a></li>
+                                    <li><a href="#">쇼츠</a></li>
+                                    <li><a href="#">팬츠&레깅스</a></li>
+                                    <li><a href="#">스커트 & 드레스</a></li>
+                                    <li><a href="#">브라</a></li>
+                                    <li><a href="#">재킷 & 베스트</a></li>
+                                    <li><a href="#">후디 & 크루</a></li>
+                                    <li><a href="#">ACG</a></li>
+                                    <li><a href="#">조던</a></li>
+                                    <li><a href="#">수영복</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>ETC</strong></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">축구</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnbSales">
+                        <a href="#">Sales</a>
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li><strong>Sale</strong></li>
+                                    <li><a href="#">All Sales</a></li>
+                                    <li><a href="#">Sale 신발</a></li>
+                                    <li><a href="#">Sale 의류</a></li>
+                                    <li><a href="#">Sale 용품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Men Sale</strong></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">용품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Women Sale</strong></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">용품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><strong>Kids Sale</strong></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">용품</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div>
+            <div>
+                <img src="images/model_haaland_02.png" alt="ERLING HAALAND">
+                <img src="images/nike_logo_02.png" alt="JUST DO IT! NIKE">
+            </div>
+            <div>
+                <strong>포기할 수 없는</strong>
+                <strong>습관이 되어버린</strong>
+                <strong>승리</strong>
+                <div>
+                    <p>ERLING HAALAND</p>
+                    <p>JUST DO IT.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="updisplay"><span>자세히보기</span></a>
+        <div>
+            <div>
+                <button type="button" class="closeHaaland"><img src="images/close_icon.png" alt="close"></button>
+            </div>
+            <div>
+                <div>
+                    <img src="images/model_haaland.png" alt="ERLING HAALAND">
+                    <div>
+                        <strong>누구도<br>
+                                상상하지 못한<br>
+                                필드위의 무법자.</strong>
+                        <p>엘링 홀란드는 수비수를 무력화하고 골을 터뜨리며 
+                            불가능이란 없음을 보여주는 승리의 현신입니다. 
+                            그는 골키퍼의 신념도 각종 기록도 산산조각내는 
+                            승리 그 자체가 되었습니다</p>
+                    </div>
+                </div>
+                <img src="images/model_haaland_03.png" alt="ERLING HAALAND_FieldPlay">
+                <div>
+                    <strong>"어제보다 더 발전된<br>
+                            나를 위해"</strong>
+                    <div>
+                        <p>ERLING HAALAND</p>
+                        <p>JUST DO IT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="showcaseList">
+        <h2>ELECTRIC PACK.</h2>
+        <ul>
+            <li>
+                <a href="#">
+                    <div>img</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>img</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>img</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>img</div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="sportsListSec">
+        <h2>SHOP BY SPORTS.</h2>
+        <ul class="sportsList">
+            <li>
+                <a href="#">
+                    <img src="images/nike_basketball.jpg" alt="BASKETBALL">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>BASKETBALL</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_soccer.jpg" alt="SOCCER">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>SOCCER</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_dance.png" alt="DANCE">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>DANCE</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_running.jpg" alt="RUNNING">
+                    <div>
+                        bgcolor
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_swimming.jpg" alt="SWIMMING">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>SWIMMING</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_golf.jpg" alt="GOLF">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>GOLF</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nice_tennis.jpg" alt="TENNIS">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>TENNIS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_bording.jpg" alt="BORDING">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>TENNIS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nike_training.jpg" alt="TRAINING">
+                    <div>
+                        bgcolor
+                    </div>
+                    <p>TRAINING</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <div class="shoes">
+        <h2>ALWAYS ICONIC.</h2>
+        <ul class="shoesList">
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_airforce1.png" alt="에어 포스 1">
+                    <div>
+                        <p>Air Force 1</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <img src="images/nike_logo.png" alt="NIKE">
+            </li> 
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_airlift.png" alt="에어리프트">
+                    <div>
+                        <p>Air Lift</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_airmax.png" alt="에어맥스">
+                    <div>
+                        <p>Air Max</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_cortez.png" alt="코르테즈">
+                    <div>
+                        <p>Cortez</p>
+                    </div>
+                </a>
+            </li class="shoesListwrap">
+            <li>
+                <a href="#">
+                    <img src="images/nikeshoes_dunk.png" alt="덩크">
+                    <div>
+                        <p>Dunk</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_jordan1.png" alt="조단 1">
+                    <div>
+                        <p>Jordan 1</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_pegasus.png" alt="페가수스">
+                    <div>
+                        <p>Pegasus</p>
+                    </div>
+                </a>
+            </li>
+            <li class="shoesListwrap">
+                <a href="#">
+                    <img src="images/nikeshoes_v2krun.png" alt="V2KRUN">
+                    <div>
+                        <p>V2KRUN</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/nikeshoes_vomero.png" alt="보메로">
+                    <div>
+                        <p>Vomero</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="memberShip">
+        <h2>NIKE MEMBERSHIP.</h2>
+        <ul>
+            <li>
+                <img src="images/nike_membership_01.jpg" alt="스포츠 & 웰니스">
+                <p>스포츠 & 웰니스</p>
+                <strong>언제 어디서든 운동하기.</strong>
+                <a href="#"><span>함께 운동하기</span></a>
+            </li>
+            <li>
+                <img src="images/nike_membership_02.jpg" alt="멤버 전용 제품">
+                <p>멤버 전용 제품</p>
+                <strong>멤버만을 위한 제품 혜택.</strong>
+                <a href="#"><span>구매하기</span></a>
+            </li>
+            <li>
+                <img src="images/nike_membership_03.jpg" alt="멤버 리워드">
+                <p>멤버 리워드</p>
+                <strong>운동과 쇼핑을 위한 특별한 혜택.</strong>
+                <a href="#"><span>자세히보기</span></a>
+            </li>
+            <li>
+                <img src="images/nike_membership_04.jpg" alt="SNKRS">
+                <p>SNKRS</p>
+                <strong>최고의 스니커즈 커뮤니티.</strong>
+                <a href="#"><span>자세히보기</span></a>
+            </li>
+        </ul>
+    </section>
+    <div class="botMenu">
+        <div>
+            <ul>
+                <li><strong>Featured</strong></li>
+                <li><a href="#">에어 포스 1</a></li>
+                <li><a href="#">조던 1</a></li>
+                <li><a href="#">에어 맥스 1</a></li>
+                <li><a href="#">에어 맥스 90</a></li>
+                <li><a href="#">에어 맥스 DN</a></li>
+                <li><a href="#">블레이저</a></li>
+                <li><a href="#">인피니티 런</a></li>
+                <li><a href="#">페가수스</a></li>
+            </ul>
+            <ul>
+                <li><strong>신발</strong></li>
+                <li><a href="#">전체보기</a></li>
+                <li><a href="#">러닝</a></li>
+                <li><a href="#">농구</a></li>
+                <li><a href="#">라이프스타일</a></li>
+                <li><a href="#">조던</a></li>
+                <li><a href="#">테니스</a></li>
+                <li><a href="#">트레이닝</a></li>
+                <li><a href="#">Sale 신발</a></li>
+            </ul>
+            <ul>
+                <li><strong>의류</strong></li>
+                <li><a href="#">전체보기</a></li>
+                <li><a href="#">탑 & 티셔츠</a></li>
+                <li><a href="#">쇼츠</a></li>
+                <li><a href="#">조거 & 스웻팬츠</a></li>
+                <li><a href="#">팬츠 & 타이츠</a></li>
+                <li><a href="#">후디 & 크루</a></li>
+                <li><a href="#">스포츠브라</a></li>
+                <li><a href="#">요가</a></li>
+                <li><a href="#">양말</a></li>
+                <li><a href="#">NikeLab</a></li>
+                <li><a href="#">Sale의류</a></li>
+            </ul>
+            <ul>
+                <li><strong>Kids</strong></li>
+                <li><a href="#">베이비 신발</a></li>
+                <li><a href="#">키즈 러닝 신발</a></li>
+                <li><a href="#">키즈 농구 신발</a></li>
+                <li><a href="#">키즈 조던 신발</a></li>
+                <li><a href="#">키즈 신발</a></li>
+                <li><a href="#">키즈 의류</a></li>
+                <li><a href="#">키즈 용품</a></li>
+                <li><a href="#">Sale 키즈</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <ul>
+                    <li><strong>안내</strong></li>
+                    <li><a href="#">멤버가입</a></li>
+                    <li><a href="#">매장찾기</a></li>
+                    <li><a href="#">나이키 저널</a></li>
+                </ul>
+                <ul>
+                    <li><strong>고객센터</strong></li>
+                    <li><a href="#">주문배송조회</a></li>
+                    <li><a href="#">반품 정책</a></li>
+                    <li><a href="#">결제 방법</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">문의하기</a></li>
+                </ul>
+                <ul>
+                    <li><strong>회사소개</strong></li>
+                    <li><a href="#">About Nike</a></li>
+                    <li><a href="#">소식</a></li>
+                    <li><a href="#">채용</a></li>
+                    <li><a href="#">투자자</a></li>
+                    <li><a href="#">지속가능성</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li><strong>© 2024 Nike, Inc. All Rights Reserved</strong></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">위치정보이용약관</a></li>
+                <li><a href="#">영상정보처리기기 운영 방침</a></li>
+            </ul>
+            <div>
+                <div>
+                    <address>
+                        <span>
+                            (유)나이키코리아 대표 Freddie Kim , 프레디 킴 | 인천광역시 계양구
+                            계산새로 33번길 26 |<br> 통신판매업신고번호 2011-인천계양-03461 | 등록번호 
+                            199-052-6  <a href="#">사업자 정보 확인</a>
+                        </span>
+                        <span>
+                            고객센터 전화 문의 080-022-0182 FAX 02-6744-5880 | 이메일 service@nike.co.kr | 호스팅서비스사업자 (유)나이키코리아
+                        </span>
+                    </address>
+                </div>
+                <div>
+                    <span>현금 등으로 결제 시 안전 거래를 위해 나이키 쇼핑몰에서 가입하신 한국결제네트웍스 유한회사의 
+                        구매안전 서비스(<a href="#">결제대금예치</a>)를 이용하실 수 있습니다.
+                        결제대금예치 콘텐츠산업진흥법에 의한 콘텐츠 보호 안내 <a href="#">자세히 보기</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
